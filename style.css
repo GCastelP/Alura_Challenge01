@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(218, 218, 212);
+}
+
+header{  
+    width: 100%;
+    background-color: rgb(248, 203, 120);
+}
+
+main{
+    width: 100%;
+    height: 820px;
+   /* background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section{
+    width: 50%;
+    height: 100%;
+    /*background-color: rgb(149, 145, 158);*/
+    
+}
+
+.sec1{
+    width: 70%;
+}
+
+.input-text{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto; /* centra el text-area */
+    margin-top: 20px;
+    resize: none; /* para dejar fijo el tamaño*/
+    font-size: 20px;
+}
+
+.sec1 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-Encriptar{
+    background-color: #0a3871;
+    color: aliceblue;
+  
+}
+
+.btn-DesEncriptar{
+    background-color: #5a0421;
+    color: aliceblue;
+}
+
+.btn-Encriptar, .btn-DesEncriptar{
+    border-radius: 10px; 
+    width: 10%;
+    height: 40px;
+    font-size: 16px;
+        
+}
+
+.container-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.sec2{
+    width: 20%;
+    background-color: rgb(253, 252, 252);
+    border-radius: 20px;  
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sec2 h3{
+    margin-left: 25px;   
+}
+
+.container-munheco{
+    width:100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.container-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.container-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.input-text-area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto; /* centra el text-area */
+    margin-top: 20px;
+    resize: none; /* para dejar fijo el tamaño*/
+    font-size: 20px;
+}  
+
+.container-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.container-copiar{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btn-Copiar{
+    border-radius: 10px; 
+    width: 20%;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+footer{
+   
+    width: 100%;
+    height: 60px;
+    background-color: rgb(236, 157, 10);
+    text-align: center;
+    padding: 15px;
+}
+
+.ocultar{
+    display: none;
+}
